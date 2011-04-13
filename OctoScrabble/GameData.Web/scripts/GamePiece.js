@@ -1,5 +1,6 @@
 var Dirs = ["n", "s", "e", "w", "se", "sw", "ne", "nw"];
 var Mults = [[0, -1], [0, 1], [1, 0], [-1, 0], [1, 1], [-1, 1], [1, -1], [-1, -1]];
+var currentWord = "";
 
 function GamePiece(xp, yp, isrc)
 {
@@ -11,7 +12,8 @@ function GamePiece(xp, yp, isrc)
 	
 	this.dPosX = 0;// xp;
 	this.dPosY = 0;// yp;
-	
+	this.letter = isrc.letter;
+	this.score = isrc.score;
 	this.arrows = new Object();
 	this.isSelected = false;
 	this.img = isrc
@@ -88,65 +90,57 @@ function GamePiece(xp, yp, isrc)
             return sm;
         }
     }
-	this.drawArrows = function()
-	{
-		if(!checkPointCollisionPure(this, this.posX, this.posY - 128))
-			if(!this.attachedPieces["ne"] && !this.attachedPieces["nw"] && !this.attachedPieces["n"])
-			{
-				this.arrows["n"] = new Arrow(this.posX, this.posY - 128, "n", this);
-				board.appendChild(this.arrows["n"].Element);
-			}
-			else this.removeArrow("n"); else this.removeArrow("n");
-		if(!checkPointCollisionPure(this, this.posX, this.posY + 128))
-			if(!this.attachedPieces["se"] && !this.attachedPieces["sw"] && !this.attachedPieces["s"])
-			{
-				this.arrows["s"] = new Arrow(this.posX, this.posY + 128, "s", this);
-				board.appendChild(this.arrows["s"].Element);
-			}
-			else this.removeArrow("s"); else this.removeArrow("s");
-		if(!checkPointCollisionPure(this, this.posX + 128, this.posY))
-			if(!this.attachedPieces["ne"] && !this.attachedPieces["se"] && !this.attachedPieces["e"])
-			{
-				this.arrows["e"] = new Arrow(this.posX + 128, this.posY, "e", this);
-				board.appendChild(this.arrows["e"].Element);
-			}
-			else this.removeArrow("e"); else this.removeArrow("e");
-		if(!checkPointCollisionPure(this, this.posX - 128, this.posY))
-			if(!this.attachedPieces["nw"] && !this.attachedPieces["sw"] && !this.attachedPieces["w"])
-			{
-				this.arrows["w"] = new Arrow(this.posX - 128, this.posY, "w", this);
-				board.appendChild(this.arrows["w"].Element);
-			}
-			else this.removeArrow("w"); else this.removeArrow("w");
-		if(!checkPointCollisionPure(this, this.posX - 88, this.posY - 88))
-			if(!this.attachedPieces["n"] && !this.attachedPieces["w"] && !this.attachedPieces["nw"])
-			{
-				this.arrows["nw"] = new Arrow(this.posX - 88, this.posY - 88, "nw", this);
-				board.appendChild(this.arrows["nw"].Element);
-			}
-			else this.removeArrow("nw"); else this.removeArrow("nw");
-		if(!checkPointCollisionPure(this, this.posX + 88, this.posY - 88))
-			if(!this.attachedPieces["e"] && !this.attachedPieces["n"] && !this.attachedPieces["ne"])
-			{
-				this.arrows["ne"] = new Arrow(this.posX + 88, this.posY - 88, "ne", this);
-				board.appendChild(this.arrows["ne"].Element);
-			}
-			else this.removeArrow("ne"); else this.removeArrow("ne");
-		if(!checkPointCollisionPure(this, this.posX - 88, this.posY + 88))
-			if(!this.attachedPieces["s"] && !this.attachedPieces["w"] && !this.attachedPieces["sw"])
-			{
-				this.arrows["sw"] = new Arrow(this.posX - 88, this.posY + 88, "sw", this);
-				board.appendChild(this.arrows["sw"].Element);
-			}
-			else this.removeArrow("sw"); else this.removeArrow("sw");
-		if(!checkPointCollisionPure(this, this.posX + 88, this.posY + 88))
-			if(!this.attachedPieces["e"] && !this.attachedPieces["s"] && !this.attachedPieces["se"])
-			{
-				this.arrows["se"] = new Arrow(this.posX + 88, this.posY + 88, "se", this);
-				board.appendChild(this.arrows["se"].Element);
-			}
-			else this.removeArrow("se"); else this.removeArrow("se");
-	}
+    this.drawArrows = function () {
+
+        if (!checkPointCollisionPure(this, this.posX, this.posY - 128))
+            if (!this.attachedPieces["ne"] && !this.attachedPieces["nw"] && !this.attachedPieces["n"] && (curAxis == null || curAxis == "s")) {
+                this.arrows["n"] = new Arrow(this.posX, this.posY - 128, "n", this);
+                board.appendChild(this.arrows["n"].Element);
+            }
+            else this.removeArrow("n"); else this.removeArrow("n");
+        if (!checkPointCollisionPure(this, this.posX, this.posY + 128))
+            if (!this.attachedPieces["se"] && !this.attachedPieces["sw"] && !this.attachedPieces["s"] && (curAxis == null || curAxis == "s")) {
+                this.arrows["s"] = new Arrow(this.posX, this.posY + 128, "s", this);
+                board.appendChild(this.arrows["s"].Element);
+            }
+            else this.removeArrow("s"); else this.removeArrow("s");
+        if (!checkPointCollisionPure(this, this.posX + 128, this.posY))
+            if (!this.attachedPieces["ne"] && !this.attachedPieces["se"] && !this.attachedPieces["e"] && (curAxis == null || curAxis == "e")) {
+                this.arrows["e"] = new Arrow(this.posX + 128, this.posY, "e", this);
+                board.appendChild(this.arrows["e"].Element);
+            }
+            else this.removeArrow("e"); else this.removeArrow("e");
+        if (!checkPointCollisionPure(this, this.posX - 128, this.posY))
+            if (!this.attachedPieces["nw"] && !this.attachedPieces["sw"] && !this.attachedPieces["w"] && (curAxis == null || curAxis == "e")) {
+                this.arrows["w"] = new Arrow(this.posX - 128, this.posY, "w", this);
+                board.appendChild(this.arrows["w"].Element);
+            }
+            else this.removeArrow("w"); else this.removeArrow("w");
+        if (!checkPointCollisionPure(this, this.posX - 88, this.posY - 88))
+            if (!this.attachedPieces["n"] && !this.attachedPieces["w"] && !this.attachedPieces["nw"] && (curAxis == null || curAxis == "sw")) {
+                this.arrows["nw"] = new Arrow(this.posX - 88, this.posY - 88, "nw", this);
+                board.appendChild(this.arrows["nw"].Element);
+            }
+            else this.removeArrow("nw"); else this.removeArrow("nw");
+        if (!checkPointCollisionPure(this, this.posX + 88, this.posY - 88))
+            if (!this.attachedPieces["e"] && !this.attachedPieces["n"] && !this.attachedPieces["ne"] && (curAxis == null || curAxis == "ne")) {
+                this.arrows["ne"] = new Arrow(this.posX + 88, this.posY - 88, "ne", this);
+                board.appendChild(this.arrows["ne"].Element);
+            }
+            else this.removeArrow("ne"); else this.removeArrow("ne");
+        if (!checkPointCollisionPure(this, this.posX - 88, this.posY + 88))
+            if (!this.attachedPieces["s"] && !this.attachedPieces["w"] && !this.attachedPieces["sw"] && (curAxis == null || curAxis == "ne")) {
+                this.arrows["sw"] = new Arrow(this.posX - 88, this.posY + 88, "sw", this);
+                board.appendChild(this.arrows["sw"].Element);
+            }
+            else this.removeArrow("sw"); else this.removeArrow("sw");
+        if (!checkPointCollisionPure(this, this.posX + 88, this.posY + 88))
+            if (!this.attachedPieces["e"] && !this.attachedPieces["s"] && !this.attachedPieces["se"] && (curAxis == null || curAxis == "sw")) {
+                this.arrows["se"] = new Arrow(this.posX + 88, this.posY + 88, "se", this);
+                board.appendChild(this.arrows["se"].Element);
+            }
+            else this.removeArrow("se"); else this.removeArrow("se");
+    }
 	
 	this.removeArrows = function()
 	{
@@ -180,8 +174,26 @@ function GamePiece(xp, yp, isrc)
    	 	if ( ( dx * dx )  + ( dy * dy ) < 15384 ) 
 			return true;
 		return false;
-	}
-	
+}
+
+this.findCurrentWord = function () {
+    var word = "";
+    var oa = this.opositeOf(curAxis);
+    var endPiece = this;
+    curScore = 0;
+    while (endPiece.attachedPieces[oa] != null) {
+        endPiece = endPiece.attachedPieces[oa];
+    }
+    word += endPiece.letter;
+    curScore += parseInt(endPiece.score);
+    while (endPiece.attachedPieces[curAxis] != null) {
+        endPiece = endPiece.attachedPieces[curAxis];
+        word += endPiece.letter;
+        curScore += parseInt(endPiece.score);
+    }
+    return word;
+}
+
 	this.isAttached = function(gp)
 	{
 		if (this.attachedPieces["n"] != null && this.attachedPieces["n"] == gp) 
@@ -224,7 +236,6 @@ function GamePiece(xp, yp, isrc)
 	}
 
 	this.attachPiece = function (gp, pos) {
-
 	    var attached = this.isAttached(gp); // if piece is already attached to this piece
 	    if (attached == pos || this.attachedPieces[pos] != null)					// no need to do anything if it is the same place so return 
 	        return false;
@@ -305,6 +316,15 @@ function GamePiece(xp, yp, isrc)
 	            else return false;
 	            break;
 	    }
+	    if (pos == "e" || pos == "w")
+	        curAxis = "e";
+	    else if (pos == "se" || pos == "nw")
+	        curAxis = "sw";
+	    else if (pos == "ne" || pos == "sw")
+	        curAxis = "ne";
+	    else if (pos == "n" || pos == "s")
+	        curAxis = "s";
+	    alert("OMG: " + curAxis);
 	    this.attachedPieces[attached] = null;
 	    gp.setSize(128);
 	    gp.attachedPieces[this.opositeOf(attached)] = null;
@@ -313,14 +333,14 @@ function GamePiece(xp, yp, isrc)
 
 	    var touchingPieces = this.getTouchingPieces(); // Attach to other touching pieces
 	    for (var i in touchingPieces)
-	            touchingPieces[i].attachByArrowClick(this, this.opositeOf(i));
+	        touchingPieces[i].attachByArrowClick(this, this.opositeOf(i));
 	    checkAllArrows();
 	    return true;
 	}
 
 	this.attachedPiecesCount = function () {
 	    var x, i = 0;
-	    for (var i in attachedPieces)
+	    for (i in attachedPieces)
 	        if (this.attachedPieces[i])
 	            i++;
 
@@ -352,14 +372,31 @@ function GamePiece(xp, yp, isrc)
 
 	    return tp;
 	}
-	this.attachByArrowClick = function(gp, dir)
-	{
-		this.attachedPieces[dir] = gp;
-		gp.attachedPieces[this.opositeOf(dir)] = this;
-		this.attached = true;
-		gp.attached = true;
+	this.attachByArrowClick = function (gp, dir) {
+	    this.attachedPieces[dir] = gp;
+	    gp.attachedPieces[this.opositeOf(dir)] = this;
+	    this.attached = true;
+	    gp.attached = true;
+	    if (dir == "e" || dir == "w")
+	        curAxis = "e";
+	    else if (dir == "se" || dir == "nw")
+	        curAxis = "sw";
+	    else if (dir == "ne" || dir == "sw")
+	        curAxis = "ne";
+	    else if (dir == "n" || dir == "s")
+	        curAxis = "s";
 	}
-	
+	this.detachAllPieces = function () {
+	    //  var tp = this.getTouchingPieces();
+	    for (i = 0; i < Dirs.length; i++) {
+	        if (this.attachedPieces[Dirs[i]]) {
+	            this.attachedPieces[Dirs[i]].attachedPieces[this.opositeOf(Dirs[i])] = null;
+	            this.attachedPieces[Dirs[i]] = null;
+	        }
+	        this.attached = false;
+	    }
+
+	}
 	this.setSize = function(s)
 	{
 		this.Element.style.zIndex = (s == 128) ? 4 : 5;
@@ -425,7 +462,7 @@ function GamePiece(xp, yp, isrc)
 	this.onTouch = function (event) {
 	    if (!ScreenLocked) return;
 	    var piece = findPiece(this.id);
-	    Debug("PieceTouched: " + piece.Id, 2);
+	   // Debug("PieceTouched: " + piece.Id, 2);
 	    if (!piece.isAttachableTo()) return;
 	    oldSelectedPiece = selectedPiece;
 	    selectedPiece = piece;

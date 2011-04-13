@@ -49,6 +49,7 @@
 		5269408212C4296F00570DBF /* Start_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5269408012C4296F00570DBF /* Start_iPad.png */; };
 		5269410C12C4479400570DBF /* gsGameOpenGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269410B12C4479400570DBF /* gsGameOpenGL.m */; };
 		5269414C12C44B0800570DBF /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 5269414B12C44B0800570DBF /* icon512.png */; };
+		52A67125132C34EC00B04FA3 /* Words.dat in Resources */ = {isa = PBXBuildFile; fileRef = 52A67124132C34EC00B04FA3 /* Words.dat */; };
 		52BD870D12C316F9003B822E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 52BD86D312C316F9003B822E /* images */; };
 		52BD870E12C316F9003B822E /* OctoScrabble.html in Resources */ = {isa = PBXBuildFile; fileRef = 52BD870012C316F9003B822E /* OctoScrabble.html */; };
 		52BD870F12C316F9003B822E /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 52BD870112C316F9003B822E /* scripts */; };
@@ -114,6 +115,7 @@
 		5269410A12C4479400570DBF /* gsGameOpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gsGameOpenGL.h; sourceTree = "<group>"; };
 		5269410B12C4479400570DBF /* gsGameOpenGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gsGameOpenGL.m; sourceTree = "<group>"; };
 		5269414B12C44B0800570DBF /* icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon512.png; path = Images/icon512.png; sourceTree = "<group>"; };
+		52A67124132C34EC00B04FA3 /* Words.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Words.dat; sourceTree = "<group>"; };
 		52BD86D312C316F9003B822E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = GameData.Web/images; sourceTree = "<group>"; };
 		52BD870012C316F9003B822E /* OctoScrabble.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = OctoScrabble.html; path = GameData.Web/OctoScrabble.html; sourceTree = "<group>"; };
 		52BD870112C316F9003B822E /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = GameData.Web/scripts; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				52A67122132C343800B04FA3 /* Data */,
 				525DA63B12B7559000229A8C /* Audio */,
 				525DA63C12B7559800229A8C /* Images */,
 				525DA74812B75DCE00229A8C /* GameWindow.xib */,
@@ -295,6 +298,14 @@
 			name = States;
 			sourceTree = "<group>";
 		};
+		52A67122132C343800B04FA3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				52A67124132C34EC00B04FA3 /* Words.dat */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		52BD86D212C316D1003B822E /* Game_Web */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +393,7 @@
 				5269408112C4296F00570DBF /* Options_iPad.png in Resources */,
 				5269408212C4296F00570DBF /* Start_iPad.png in Resources */,
 				5269414C12C44B0800570DBF /* icon512.png in Resources */,
+				52A67125132C34EC00B04FA3 /* Words.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

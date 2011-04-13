@@ -56,8 +56,9 @@ function Arrow(xp, yp, dir, gp)
 	        //headsUpDisplay.IShow();
 	    }
 	    else
-	        gp = new GamePiece(this.posX, this.posY, images[((it++) % images.length)]);
-	    addPiece(gp);
+	        return;
+	    // gp = new GamePiece(this.posX, this.posY, images[((it++) % images.length)]);
+
 	    var x, tp = "";
 	    var touchingPieces = gp.getTouchingPieces();
 	    for (x = 0; x < Dirs.length; x++)
@@ -74,6 +75,7 @@ function Arrow(xp, yp, dir, gp)
 	        selectedPiece.isSelected = false;
 	        selectedPiece = null;
 	    }
+	    addPiece(gp);
 	}
 	
 	// Point is inside the bounding box for this arrow
