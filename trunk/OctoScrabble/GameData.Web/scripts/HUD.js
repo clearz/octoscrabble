@@ -1,9 +1,13 @@
 ﻿var cPieces = new Object();
 var device = "iPad";
-
-function ControlMenu() {
+var removedPieces = new Array();
+function HUD() {
     this.topHeight = 0;
     this.botHeight = 0;
+    this.p1Score = 0;
+    this.p2Score = 0;
+    this.piecesLeft = 89;
+
     if( device == "iPad")
     {
         this.width = 770;
@@ -41,9 +45,30 @@ function ControlMenu() {
     el.style.display = "none";
     el.style.webkitBorderRadius = "20px";
     el.style.MozBorderRadius = "20px";
+
+    var sb = document.createElement('div');
+    sb.id = "scroreBoard";
+    sb.style.width = this.width + "px";
+    sb.style.height = "20px"
+    sb.style.top = "100px";
+    sb.style.zIndex = 10;
+    sb.style.position = "absolute";
+    sb.style.fontFamily = "Helvetica";
+
+    var pl = document.createElement('div');
+    pl.id = "PiecesLeft";
+    pl.style.width = "50px";
+    pl.style.height = "20px"
+    pl.style.zIndex = 10;
+    pl.style.position = "absolute";
+    pl.style.fontFamily = "Helvetica";
+    pl.style.fontWeight = "bold";
+    pl.style.color = "#FF0";
+
+    //sb.style.display = "none";
 	
     var tel = document.createElement('div');
-    tel.id = "gameMenu";
+    tel.id = "gameTMenu";
     tel.style.width = this.width + "px";
     tel.style.height = this.height + "px";
     tel.style.zIndex = 10;
@@ -54,11 +79,17 @@ function ControlMenu() {
     tel.style.MozBorderRadius = "20px";
 	
 	this.TopElement = tel;
-	
-    var img = document.createElement("img");
-    img.src = "images/settings.png";
-    img.style.position = "absolute";
+
+	var img = document.createElement("img");
+	img.src = "images/settings2.png";
+	img.style.position = "absolute";
 	img.style.zIndex = 10;
+
+	var bag = document.createElement("img");
+	bag.src = "images/bag.png";
+	bag.style.position = "absolute";
+	bag.style.zIndex = 10;
+
 	//img.style.float = "right";
     var lock = document.createElement("img");
     lock.src = "images/locko.png";
@@ -71,6 +102,7 @@ function ControlMenu() {
     this.IconSize = 64;  // Size of settings icon height + width and lock closed height + width and opened lock height;
     this.OpenLockWidth = 88;
     this.Settings = img;
+    this.Bag = bag;
     this.opacity = 0.8;
     this.targetOpacity = 0.8;
     el.style.opacity = this.opacity;
@@ -91,12 +123,14 @@ function ControlMenu() {
             px += this.startSize;
         }
     }
-	
+
     this.removeSelectedPiece = function () {
         this.Element.removeChild(this.selectedPiece.Element);
+        removedPieces.push(cPieces[this.selectedPiece.Id]);
         cPieces[this.selectedPiece.Id] = null;
         this.selectedPiece = null;
     }
+
     this.pieceClicked = function (event) {
         if (!ScreenLocked) return;
         var piece = cPieces[this.id];
@@ -110,24 +144,60 @@ function ControlMenu() {
             piece.setPos(piece.posX, piece.posY - headsUpDisplay.pieceClickedOffset);
             headsUpDisplay.selectedPiece = piece;
         }
-		
+
         event.cancelBubble = true;
+        event.preventDefault();
     }
     this.AddPieces();
     this.TopElement.appendChild(lock);
+    this.TopElement.appendChild(bag);
     this.TopElement.appendChild(img);
-	
-    this.SettingsClicked = function (event) {        
-        ScreenLocked = false;
-		dialog.Show();
-		if(event)
-		{
-			event.cancelBubble = true;
-			event.preventDefault();
-		}
+    this.ScoreBoard = sb;
+    sb.innerHTML = "Player 1: " + this.p1Score + "<br/>Player 2: " + this.p2Score;
+    pl.innerHTML = this.piecesLeft;
+    this.TopElement.appendChild(sb);
+    this.TopElement.appendChild(pl);
+    this.PLeft = pl;
+
+    this.AddPiece = function (gp) {
+        var zoom = window.innerWidth / document.documentElement.clientWidth;
+        gp.setSize(this.startSize * zoom);
+        gp.Element.addEventListener(supportsTouch ? "touchstart" : "mousedown", this.pieceClicked, true);
+        cPieces[gp.Id] = gp;
+        this.Element.appendChild(gp.Element);
     }
-	
+    this.SettingsClicked = function (event) {
+        ScreenLocked = false;
+        dialog.Show();
+
+    }
+
+    this.BagClicked = function (event) {
+        if (wordExists(currentWord)) {
+            alert("Well Done. Word Exists");
+            headsUpDisplay.setScore(curPlayer, curScore);
+            curAxis = null;
+            currentWord = "";
+            curScore = 0;
+            checkAllArrows();
+            return;
+        }
+        alert("Sorry that word dosen't Exist!");
+        curAxis = null;
+        currentWord = "";
+        curScore = 0;
+        for (itt = 0; itt < removedPieces.length; itt++) {
+            removePiece(removedPieces[itt].Id);
+            headsUpDisplay.AddPiece(removedPieces[itt]);
+        }
+
+        headsUpDisplay.IShow();
+        removedPieces = new Array();
+        checkAllArrows();
+    }
+
     this.Settings.addEventListener(supportsTouch ? "touchstart" : "mousedown", this.SettingsClicked, true);
+    this.Bag.addEventListener(supportsTouch ? "touchstart" : "mousedown", this.BagClicked, true);
     this.toggleLock = function (event) {
         ScreenLocked = !ScreenLocked;
         var zoom = window.innerWidth / document.documentElement.clientWidth;
@@ -158,6 +228,16 @@ function ControlMenu() {
             setTimeout(headsUpDisplay.fadeIn, 4);
         }
     }
+    this.setScore = function (player, score) {
+        if (player == 1) this.p1Score += parseInt(score);
+        else if (player == 2) this.p2Score += parseInt(score);
+        this.ScoreBoard.innerHTML = "Player 1: <span style='color:#A00'>" + this.p1Score + "</span><br/>Player 2: <span style='color:#A00'>" + this.p2Score + "</span>";
+    }
+
+    this.setPiecesLeft = function (p) {
+        this.piecesLeft = p;
+        this.PLeft.innerHTML = p;
+    }
     this.IShow = function () {
         var cw = window.innerWidth;
         var ch = window.innerHeight;
@@ -180,11 +260,19 @@ function ControlMenu() {
         el.style.width = rw + "px";
         el.style.height = rh + "px";
 
-
         this.TopElement.style.top = (yo + 10) + "px";
         this.TopElement.style.left = xo + ((cw - rw) / 2) + "px";
         this.TopElement.style.width = rw + "px";
         this.TopElement.style.height = rh + "px";
+
+        this.ScoreBoard.style.top = (rh + 10) + "px";
+        this.ScoreBoard.style.fontSize = (25 * zoom) + "px";
+        this.ScoreBoard.style.left = (18 * zoom) + "px";
+
+        this.PLeft.style.top = (65*zoom) + "px";
+        this.PLeft.style.fontSize = (45 * zoom) + "px";
+        this.PLeft.style.left = ((cw / 2) - (22 * zoom)) + "px";
+
         this.topHeight = (yo + 10) + rh;
 
         this.botHeight = (yo - rh + ch - (this.bottomOffset * zoom));
@@ -201,10 +289,17 @@ function ControlMenu() {
         this.Lock.width = ((ScreenLocked ? headsUpDisplay.IconSize : headsUpDisplay.OpenLockWidth) * zoom * this.mult);
         this.Lock.src = ScreenLocked ? "images/lockc.png" : "images/locko.png";
         this.Lock.style.left = (0) + "px";
+
+        this.Bag.width = (this.IconSize * zoom * this.mult);
+        this.Bag.height = (this.IconSize * zoom * this.mult);
+        this.Bag.style.left = ((cw / 2)-(64*zoom)) + "px";
+        this.Bag.style.top = (0) + "px";
+
         this.Settings.width = (this.IconSize * zoom * this.mult);
         this.Settings.height = (this.IconSize * zoom * this.mult);
         this.Settings.style.right = (0) + "px";
         this.Settings.style.top = (0) + "px";
+
         this.Element.style.webkitBorderRadius = (20 * zoom) + "px";
         this.Element.style.MozBorderRadius = (20 * zoom) + "px";
         this.opacity = 0;

@@ -44,7 +44,6 @@ function Dialog(txt)
 	okBtn.addEventListener(supportsTouch ? "touchend" : "mouseup", this.onOkTouch, true);
 	el.appendChild(okBtn);
 	el.appendChild(cBtn);
-	
 	oel.appendChild(el);
 	this.Visible = false;
 	this.Element = oel;

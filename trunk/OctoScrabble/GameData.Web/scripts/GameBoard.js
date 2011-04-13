@@ -8,27 +8,31 @@ var supportsTouch = 'createTouch' in document; // Check if it is an iOS device o
 var ScreenLocked = false;
 var headsUpDisplay; // The board piece collection
 var dialog;
-
-
+var wdialog;
+var bag = new Array();
+var firstMove, curAxis = null, curScore = 0, curPlayer = 1;
 // USAGE: called by the pages onload event. preforms any application initializiation
 // PARAM: (none)
 // RETURNS (none)
 function Init() {
     try{
         ClearDebug();
-		dialog = new Dialog("Quit to Main Menu?");
-	    board = document.getElementById("board"); // get a pointer to the boards div
-        headsUpDisplay = new ControlMenu();
+        firstMove = true;
+        board = document.getElementById("board"); // get a reference to the boards div
+
+        dialog = new Dialog("Quit to Main Menu?");
+        wdialog = new WDialog();
+        headsUpDisplay = new HUD();
+        FillBag();
 		headsUpDisplay.toggleLock();
 		window.scrollTo(435,365); // move to the center of the board 435, 365
 	    board.appendChild(headsUpDisplay.Element);
 		board.appendChild(headsUpDisplay.TopElement);
 		board.appendChild(dialog.Element);
-		
+		board.appendChild(wdialog.Element);
         board.addEventListener(supportsTouch ? "touchstart" : "mousedown", boardClicked, false);
-	    board.addEventListener(supportsTouch ? "touchmove" : "mousemove", pMouseMove, true);
-		//dialog.Element.addEventListener(supportsTouch ? "touchmove" : "mousemove", pMouseMove, true);
-	    board.addEventListener(supportsTouch ? "touchend" : "mouseup", pMouseUp, true);
+        board.addEventListener(supportsTouch ? "touchmove" : "mousemove", pMouseMove, false);
+        board.addEventListener(supportsTouch ? "touchend" : "mouseup", pMouseUp, false);
 		addPiece(new GamePiece(832,960, images[((it++) % images.length)]));//832,960
 	    headsUpDisplay.IShow();
     } catch (e) {
@@ -38,6 +42,69 @@ function Init() {
     }
 }
 
+function FillBag() {
+    var bTemp = new Array();
+    for (ii = 0; ii < 12; ii++) {
+        bTemp.push(images[4]);
+    }
+    for (ii = 0; ii < 9; ii++) {
+        bTemp.push(images[0]); 
+        bTemp.push(images[8]);
+    }
+    for (ii = 0; ii < 8; ii++) {
+        bTemp.push(images[14]);
+    }
+    for (ii = 0; ii < 6; ii++) {
+        bTemp.push(images[13]); 
+        bTemp.push(images[17]);
+        bTemp.push(images[19]);
+
+    }
+    for (ii = 0; ii < 4; ii++) {
+        bTemp.push(images[11]); 
+        bTemp.push(images[18]);
+        bTemp.push(images[20]);
+        bTemp.push(images[3]);
+
+    }
+    for (ii = 0; ii < 3; ii++) {
+        bTemp.push(images[6]);
+    }
+    for (ii = 0; ii < 2; ii++) {
+        bTemp.push(images[1]); 
+        bTemp.push(images[2]);
+        bTemp.push(images[12]);
+        bTemp.push(images[15]);
+        bTemp.push(images[5]);
+        bTemp.push(images[7]);
+        bTemp.push(images[21]);
+        bTemp.push(images[22]);
+        bTemp.push(images[24]); 
+        bTemp.push(images[26]);
+
+
+    }
+    for (ii = 0; ii < 1; ii++) {
+        bTemp.push(images[10]); 
+        bTemp.push(images[9]);
+        bTemp.push(images[23]);
+        bTemp.push(images[16]);
+        bTemp.push(images[25]);
+
+    }
+
+    bag = shuffle(bTemp);
+    //if last letter in bag in a wildcard replace it because you cant start with a wildcard
+    if (bag[99].letter == "") {
+        var t = bag[98];
+        bag[98] = bag[99];
+        bag[99] = t;
+    }
+}
+function shuffle(v) {
+    for (var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);
+    return v;
+};
 // USAGE: for checking if a piece can attach to another piece and will not sit over another one
 // PARAM: (sel) the piece calling this fuction. Used so that a piece does not collide against itself
 // PARAM: (posX) The x coordinate of the calling piece
@@ -165,8 +232,9 @@ function boardClicked(event) {
         var zoom = window.innerWidth / document.documentElement.clientWidth;
         
         //return immediatly if touch is in HUD area
-        if (yPos < headsUpDisplay.topHeight || yPos > headsUpDisplay.botHeight) return;
-        
+        if (yPos < headsUpDisplay.topHeight || yPos > headsUpDisplay.botHeight) { event.preventDefault(); return; }
+        if (dialog.Visible || wdialog.Visible) { event.preventDefault(); return; }
+
         if (ScreenLocked)
         {
             //Debug("BordTouched@" + xPos + "," + yPos, 2);
@@ -190,9 +258,9 @@ function boardClicked(event) {
                         event.preventDefault();
                     }
                 }
-                else if (!selectedPiece || !selectedPiece.isSelected) {
-                    addPiece(new GamePiece(xPix, yPix, images[((it++) % images.length)]));
-                }
+                //else if (!selectedPiece || !selectedPiece.isSelected) {
+                //    addPiece(new GamePiece(xPix, yPix, images[((it++) % images.length)]));
+                //}
             } catch (e) {
                 var lln = "";
                 for (var i in e) lln += (i + ' = ' + e[i]) + "\r\n";
@@ -205,16 +273,26 @@ function boardClicked(event) {
 // USAGE: Adds a new game piece to the board
 // PARAM: (gp) the game piece to add
 // RETURNS (none)
-function addPiece(gp)
-{
-	//gp.Element.addEventListener(supportsTouch ? "touchstart" : "mousedown", pMouseDown, true);
-	//gp.Element.addEventListener(supportsTouch ? "touchend" : "mouseup", pMouseUp, true);
-    //gp.Element.addEventListener(supportsTouch ? "touchmove" : "mousemove", pMouseMove, true);
-	gamePieces.push(gp);
-	board.appendChild(gp.Element);
-	checkAllArrows();
-}
+ function addPiece(gp) {
+     gamePieces.push(gp);
+     board.appendChild(gp.Element);
+     checkAllArrows();
+     currentWord = gp.findCurrentWord();
+ }
 
+ function removePiece(id) {
+     for (x = 0; x < gamePieces.length; x++)
+         if (gamePieces[x].Id == id) {
+             board.removeChild(gamePieces[x].Element);
+             gamePieces[x].removeArrows();
+             gamePieces[x].detachAllPieces();
+             gamePieces.splice(x, 1);
+         }
+ }
+ function getScoreFromWord(cw) {
+    
+    
+ }
 // USAGE: remove all arrows from each piece then only display the ones with available moves.
 // PARAM: (none)
 // RETURNS (none)
@@ -224,7 +302,7 @@ function checkAllArrows() {
 	//clearArrows();
 	for(x = gamePieces.length-1; x >= 0  ; x-- )
 	{
-		gamePieces[x].removeArrows();
+	    gamePieces[x].removeArrows();
 		gamePieces[x].drawArrows();
 	}
 }
@@ -262,10 +340,12 @@ function checkCollision()
 // USAGE: dragging finger while there is a selected object. This checks for a collision and if it finds one it attaches the two pieces at the required ends
 // PARAM: (event) a mouseevent carrying any info about the event
 // RETURNS (none)
-function pMouseMove(event)
-{
+function pMouseMove(event) {
+
 	if (!ScreenLocked)
-		headsUpDisplay.Hide();
+	    headsUpDisplay.Hide();
+
+	if (dialog.Visible || wdialog.Visible) { event.preventDefault(); return; }
 	if( selectedPiece == null || selectedPiece.attached ) return;
 	var posX, posY;
 	
@@ -361,6 +441,7 @@ function pMouseDown(event)
 // RETURNS (none)
 function pMouseUp(event) {
 
+    if (dialog.Visible || wdialog.Visible) { event.preventDefault(); return; }
     event.preventDefault();
     if (headsUpDisplay.Hidden)
         headsUpDisplay.Show();
