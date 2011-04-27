@@ -1,2129 +1,0 @@
-TOctoScrabble
-v7
-r0
-t314857915.742307
-cCheck dependencies
-cCpResource build/Release-iphoneos/OctoScrabble.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Info.plist OctoScrabble-Info.plist
-cCompileXIB /Users/john/Documents/OctoScrabble/MainWindow.xib
-cCompileXIB /Users/john/Documents/OctoScrabble/OctoScrabbleViewController.xib
-cCpResource build/Release-iphoneos/OctoScrabble.app/island.mp3 Audio/island.mp3
-cCpResource build/Release-iphoneos/OctoScrabble.app/tap.caf Audio/tap.caf
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default.png Images/Default.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default@2x.png Images/Default@2x.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon.png Images/icon.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon@2x.png Images/icon@2x.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.png Images/Options.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options@2x.png Images/Options@2x.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start.png Images/Start.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start@2x.png Images/Start@2x.png
-cCompileXIB /Users/john/Documents/OctoScrabble/GameWindow.xib
-cCompileXIB /Users/john/Documents/OctoScrabble/MainMenu.xib
-cCompileXIB /Users/john/Documents/OctoScrabble/Options.xib
-cCpResource build/Release-iphoneos/OctoScrabble.app/images GameData.Web/images
-cCpResource build/Release-iphoneos/OctoScrabble.app/OctoScrabble.html GameData.Web/OctoScrabble.html
-cCpResource build/Release-iphoneos/OctoScrabble.app/scripts GameData.Web/scripts
-cCpResource build/Release-iphoneos/OctoScrabble.app/styles GameData.Web/styles
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default_iPad.png Images/Default_iPad.png
-cCompileXIB /Users/john/Documents/OctoScrabble/MainMenu_iPad.xib
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options_iPad.png Images/Options_iPad.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start_iPad.png Images/Start_iPad.png
-cCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon512.png Images/icon512.png
-cProcessPCH /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-efhywuaqrjnjloclcscdtasnhwif/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ccrhbtfdjgwptcdkxnbueijbivbj/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/main.o /Users/john/Documents/OctoScrabble/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleAppDelegate.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleViewController.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLFont.o /Users/john/Documents/OctoScrabble/Classes/GLFont.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLTexture.o /Users/john/Documents/OctoScrabble/Classes/GLTexture.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/ResourceManager.o /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/SoundEngine.o /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameState.o /Users/john/Documents/OctoScrabble/Classes/GameState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameStateManager.o /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLESGameState.o /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGame.o /Users/john/Documents/OctoScrabble/Classes/gsGame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsMainMenu.o /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsOptions.o /Users/john/Documents/OctoScrabble/Classes/gsOptions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsTest.o /Users/john/Documents/OctoScrabble/Classes/gsTest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGameOpenGL.o /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/main.o /Users/john/Documents/OctoScrabble/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleAppDelegate.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleViewController.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLFont.o /Users/john/Documents/OctoScrabble/Classes/GLFont.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLTexture.o /Users/john/Documents/OctoScrabble/Classes/GLTexture.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/ResourceManager.o /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/SoundEngine.o /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cLd /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble normal armv6
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameState.o /Users/john/Documents/OctoScrabble/Classes/GameState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameStateManager.o /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLESGameState.o /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGame.o /Users/john/Documents/OctoScrabble/Classes/gsGame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsMainMenu.o /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsOptions.o /Users/john/Documents/OctoScrabble/Classes/gsOptions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsTest.o /Users/john/Documents/OctoScrabble/Classes/gsTest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGameOpenGL.o /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble normal armv7
-cCreateUniversalBinary /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble normal "armv6 armv7"
-cGenerateDSYMFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app.dSYM /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble
-cProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/95F38875-5FDE-46A8-BA2B-D43C955DD22B.mobileprovision" /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/embedded.mobileprovision
-cTouch /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent
-cCodeSign /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-cValidate /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004C5A53C10000000000000110
-t1280988097
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-c000000004C06E99F00000000000001A7
-t1275521439
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-c000000004C06E99F00000000000001E5
-t1275521439
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C0059B600000000002DE3B0
-t1275091382
-s3007408
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004C0059880000000000000A22
-t1275091336
-s2594
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
-c000000004C005943000000000000F342
-t1275091267
-s62274
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
-c000000004C0058940000000000004980
-t1275091092
-s18816
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C005A1C00000000003B4B70
-t1275091484
-s3885936
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C005A45000000000036A640
-t1275091525
-s3581504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C005A310000000000001355
-t1275091505
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004C0059E400000000000064FD
-t1275091428
-s25853
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004C0059E40000000000001F45
-t1275091428
-s8005
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004C0059E8000000000003ABB0
-t1275091432
-s240560
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004C005BDA000000000000094F
-t1275091930
-s2383
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004C005BDA0000000000000A61
-t1275091930
-s2657
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004C005BDA0000000000009369
-t1275091930
-s37737
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004C005BDA0000000000002A42
-t1275091930
-s10818
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C005BE9000000000003C2B0
-t1275091945
-s246448
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C005C74000000000000007D
-t1275092084
-s125
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C005D9100000000002215A0
-t1275092369
-s2233760
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C00642C000000000000098F
-t1275094060
-s2447
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0064A60000000002703220
-t1275094182
-s40907296
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/mach/mach.h
-c000000004C5A18F30000000000001057
-t1280973043
-s4183
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/pthread.h
-c000000004B9F135D00000000000038F0
-t1268716381
-s14576
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C5A51EA000000000039EF90
-t1280987626
-s3796880
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004C5A51980000000000000A23
-t1280987544
-s2595
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
-c000000004C5A50B0000000000001032E
-t1280987312
-s66350
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
-c000000004C5A4FA4000000000000A48C
-t1280987044
-s42124
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004C5A521400000000000064FD
-t1280987668
-s25853
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004C5A52140000000000001F45
-t1280987668
-s8005
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004C5A52180000000000045910
-t1280987672
-s284944
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004C5A5504000000000000094F
-t1280988420
-s2383
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004C5A55040000000000000A61
-t1280988420
-s2657
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004C5A55040000000000009369
-t1280988420
-s37737
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004C5A55040000000000003C4A
-t1280988420
-s15434
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C5A5516000000000002D690
-t1280988438
-s186000
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A556300000000000000C4
-t1280988515
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A56D600000000002573D0
-t1280988886
-s2454480
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/mach/mach.h
-c000000004C5A3EBA0000000000001057
-t1280982714
-s4183
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/pthread.h
-c000000004C57909100000000000038F0
-t1280807057
-s14576
-
-N/Users/john/Development/OctoScrabble/Audio/island.mp3
-c000000004A71E8F00000000000057A7D
-t1248979184
-s359037
-
-N/Users/john/Development/OctoScrabble/Audio/tap.caf
-c000000004A71E8F0000000000001A5BC
-t1248979184
-s107964
-
-N/Users/john/Development/OctoScrabble/GameData.Web/OctoScrabble.html
-c000000004D13CD3E00000000000004CF
-t1293143358
-s1231
-
-N/Users/john/Development/OctoScrabble/GameData.Web/images
-c000000004D4492B00000000000000198
-t1296339632
-s408
-
-N/Users/john/Development/OctoScrabble/GameData.Web/scripts
-c000000004D4492BC0000000000000176
-t1296339644
-s374
-
-N/Users/john/Development/OctoScrabble/GameData.Web/styles
-c000000004D4492BC0000000000000088
-t1296339644
-s136
-
-N/Users/john/Development/OctoScrabble/GameWindow.xib
-c000000004CE074A800000000000040B0
-t1289778344
-s16560
-
-N/Users/john/Development/OctoScrabble/Images/Default.png
-c000000004D12828C000000000003761C
-t1293058700
-s226844
-
-N/Users/john/Development/OctoScrabble/Images/Default@2x.png
-c000000004D07AD3000000000000A5C1E
-t1292348720
-s678942
-
-N/Users/john/Development/OctoScrabble/Images/Default_iPad.png
-c000000004D13BD9800000000000CB682
-t1293139352
-s833154
-
-N/Users/john/Development/OctoScrabble/Images/Options.png
-c000000004D12826C000000000002BD9E
-t1293058668
-s179614
-
-N/Users/john/Development/OctoScrabble/Images/Options@2x.png
-c000000004D07B154000000000008191E
-t1292349780
-s530718
-
-N/Users/john/Development/OctoScrabble/Images/Options_iPad.png
-c000000004D13C79400000000000A9625
-t1293141908
-s693797
-
-N/Users/john/Development/OctoScrabble/Images/Start.png
-c000000004D1282B0000000000003580D
-t1293058736
-s219149
-
-N/Users/john/Development/OctoScrabble/Images/Start@2x.png
-c000000004D07AD6800000000000A69A6
-t1292348776
-s682406
-
-N/Users/john/Development/OctoScrabble/Images/Start_iPad.png
-c000000004D13C73800000000000CC552
-t1293141816
-s836946
-
-N/Users/john/Development/OctoScrabble/Images/icon.png
-c000000004D1281AC0000000000002722
-t1293058476
-s10018
-
-N/Users/john/Development/OctoScrabble/Images/icon512.png
-c000000004D12821800000000000426B2
-t1293058584
-s272050
-
-N/Users/john/Development/OctoScrabble/Images/icon@2x.png
-c000000004D1281140000000000006BC8
-t1293058324
-s27592
-
-N/Users/john/Development/OctoScrabble/MainMenu.xib
-c000000004D128CEC0000000000007202
-t1293061356
-s29186
-
-N/Users/john/Development/OctoScrabble/MainMenu_iPad.xib
-c000000004D13C8140000000000003ACE
-t1293142036
-s15054
-
-N/Users/john/Development/OctoScrabble/MainWindow.xib
-c000000004D06F2AC0000000000004E65
-t1292300972
-s20069
-
-N/Users/john/Development/OctoScrabble/OctoScrabbleViewController.xib
-c000000004D06F2AC0000000000001A59
-t1292300972
-s6745
-
-N/Users/john/Development/OctoScrabble/Options.xib
-c000000004D139F700000000000008892
-t1293131632
-s34962
-
-N/Users/john/Development/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-t1296339622
-s1122
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default.png
-t1293154092
-s275977
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default@2x.png
-t1293154098
-s806230
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default_iPad.png
-t1293154114
-s1001567
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/GameWindow.nib
-t1293154306
-s999
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Info.plist
-t1293154306
-s910
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainMenu.nib
-t1293154308
-s2465
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainMenu_iPad.nib
-t1293154308
-s919
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainWindow.nib
-t1293154306
-s1133
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble.html
-t1293154102
-s1231
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabbleViewController.nib
-t1293154306
-s795
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.nib
-t1293154308
-s3127
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.png
-t1293154094
-s220127
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options@2x.png
-t1293154100
-s633868
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options_iPad.png
-t1293154122
-s838362
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/PkgInfo
-t1293154306
-s8
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start.png
-t1293154100
-s267391
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start@2x.png
-t1293154112
-s812357
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start_iPad.png
-t1293154124
-s1007088
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon.png
-t1293154092
-s11507
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon512.png
-t1293154124
-s347243
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon@2x.png
-t1293154092
-s32821
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/images
-t1296339628
-s340
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/island.mp3
-t1293154090
-s359037
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/scripts
-t1296339630
-s306
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/styles
-t1296339630
-s102
-
-N/Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/tap.caf
-t1293154090
-s107964
-
-N/Users/john/Documents/OctoScrabble/Audio/island.mp3
-c000000004A7213200000000000057A7D
-t1248989984
-s359037
-
-N/Users/john/Documents/OctoScrabble/Audio/tap.caf
-c000000004A721320000000000001A5BC
-t1248989984
-s107964
-
-N/Users/john/Documents/OctoScrabble/Classes/GLESGameState.h
-c000000004CE076F80000000000000160
-t1289778936
-s352
-i<Foundation/Foundation.h>
-i"GameState.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/GLESGameState.m
-c000000004CE076340000000000001547
-t1289778740
-s5447
-i"GLESGameState.h"
-i<OpenGLES/EAGLDrawable.h>
-i<QuartzCore/QuartzCore.h>
-i"ResourceManager.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/GLFont.h
-c000000004CE0768F0000000000000333
-t1289778831
-s819
-i<Foundation/Foundation.h>
-i"GLTexture.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/GLFont.m
-c000000004CE0769900000000000015DD
-t1289778841
-s5597
-i"GLFont.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/GLTexture.h
-c000000004CE0767B0000000000001275
-t1289778811
-s4725
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-
-N/Users/john/Documents/OctoScrabble/Classes/GLTexture.m
-c000000004CE076850000000000002E06
-t1289778821
-s11782
-i<OpenGLES/ES1/glext.h>
-i"GLTexture.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/GameState.h
-c000000004CA26675000000000000018F
-t1285711477
-s399
-i<Foundation/Foundation.h>
-i"GameStateManager.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/GameState.m
-c000000004CA24D9200000000000001D7
-t1285705106
-s471
-i"GameState.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/GameStateManager.h
-c000000004D1401920000000000000125
-t1293156754
-s293
-i<Foundation/Foundation.h>
-
-N/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m
-c000000004CA2449300000000000000D7
-t1285702803
-s215
-i"GameStateManager.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.h
-c000000004D13FCBA00000000000002DD
-t1293155514
-s733
-i<UIKit/UIKit.h>
-i"GameStateManager.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m
-c000000004D14170C000000000000097C
-t1293162252
-s2428
-i"OctoScrabbleAppDelegate.h"
-i"OctoScrabbleViewController.h"
-i"GameState.h"
-i"gsMainMenu.h"
-i"ResourceManager.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.h
-c000000004D071CDC00000000000000FF
-t1292311772
-s255
-i<UIKit/UIKit.h>
-
-N/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m
-c000000004D072AC000000000000006AC
-t1292315328
-s1708
-i"OctoScrabbleViewController.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/ResourceManager.h
-c000000004CE075D900000000000009FA
-t1289778649
-s2554
-i<OpenGLES/EAGL.h>
-i<OpenGLES/EAGLDrawable.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<Foundation/Foundation.h>
-i"GLTexture.h"
-i"GLFont.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m
-c000000004D13CAC00000000000002757
-t1293142720
-s10071
-i"ResourceManager.h"
-i"GLESGameState.h"
-i<OpenGLES/EAGLDrawable.h>
-i<QuartzCore/QuartzCore.h>
-i"SoundEngine.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp
-c000000004CE0688D000000000000CB5C
-t1289775245
-s52060
-i<AudioToolbox/AudioToolbox.h>
-i<CoreFoundation/CFURL.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<map>
-i<vector>
-i<pthread.h>
-i<mach/mach.h>
-i"SoundEngine.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/SoundEngine.h
-c000000004CE0689A00000000000038D3
-t1289775258
-s14547
-i<CoreAudio/CoreAudioTypes.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/john/Documents/OctoScrabble/Classes/gsGame.h
-c000000004D12D61300000000000001CE
-t1293080083
-s462
-i<Foundation/Foundation.h>
-i"GameState.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsGame.m
-c000000004D14113E00000000000007C1
-t1293160766
-s1985
-i"gsMainMenu.h"
-i"gsGame.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.h
-c000000004D141BD00000000000000126
-t1293163472
-s294
-i<Foundation/Foundation.h>
-i"GLESGameState.h"
-i"GLTexture.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m
-c000000004D141F5A0000000000000841
-t1293164378
-s2113
-i"gsGameOpenGL.h"
-i"gsMainMenu.h"
-i"ResourceManager.h"
-i"GameStateManager.h"
-i"OctoScrabbleAppDelegate.h"
-i"GLTexture.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsMainMenu.h
-c000000004D12B20E000000000000034C
-t1293070862
-s844
-i<Foundation/Foundation.h>
-i"GameState.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m
-c000000004D14121100000000000008ED
-t1293160977
-s2285
-i"gsMainMenu.h"
-i"OctoScrabbleAppDelegate.h"
-i"gsGame.h"
-i"gsTest.h"
-i"gsOptions.h"
-i"ResourceManager.h"
-i"gsGameOpenGL.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsOptions.h
-c000000004D13C6F70000000000000419
-t1293141751
-s1049
-i<Foundation/Foundation.h>
-i"GameState.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsOptions.m
-c000000004D140FDB0000000000000CF6
-t1293160411
-s3318
-i"gsOptions.h"
-i"gsMainMenu.h"
-i"OctoScrabbleAppDelegate.h"
-i"ResourceManager.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsTest.h
-c000000004CA2663700000000000000EA
-t1285711415
-s234
-i<Foundation/Foundation.h>
-i"GameState.h"
-
-N/Users/john/Documents/OctoScrabble/Classes/gsTest.m
-c000000004D1401AD00000000000005AA
-t1293156781
-s1450
-i"gsTest.h"
-i"gsMainMenu.h"
-i"OctoScrabbleAppDelegate.h"
-
-N/Users/john/Documents/OctoScrabble/GameData.Web/OctoScrabble.html
-c000000004D13F76E00000000000004CF
-t1293154158
-s1231
-
-N/Users/john/Documents/OctoScrabble/GameData.Web/images
-c000000004D12A64B0000000000000198
-t1293067851
-s408
-
-N/Users/john/Documents/OctoScrabble/GameData.Web/scripts
-c000000004D13F74E0000000000000176
-t1293154126
-s374
-
-N/Users/john/Documents/OctoScrabble/GameData.Web/styles
-c000000004D12E5C00000000000000088
-t1293084096
-s136
-
-N/Users/john/Documents/OctoScrabble/GameWindow.xib
-c000000004CE09ED700000000000040B0
-t1289789143
-s16560
-
-N/Users/john/Documents/OctoScrabble/Images/Default.png
-c000000004D12ACBC000000000003761C
-t1293069500
-s226844
-
-N/Users/john/Documents/OctoScrabble/Images/Default@2x.png
-c000000004D07D76000000000000A5C1E
-t1292359520
-s678942
-
-N/Users/john/Documents/OctoScrabble/Images/Default_iPad.png
-c000000004D13E7C700000000000CB682
-t1293150151
-s833154
-
-N/Users/john/Documents/OctoScrabble/Images/Options.png
-c000000004D12AC9B000000000002BD9E
-t1293069467
-s179614
-
-N/Users/john/Documents/OctoScrabble/Images/Options@2x.png
-c000000004D07DB84000000000008191E
-t1292360580
-s530718
-
-N/Users/john/Documents/OctoScrabble/Images/Options_iPad.png
-c000000004D13F1C400000000000A9625
-t1293152708
-s693797
-
-N/Users/john/Documents/OctoScrabble/Images/Start.png
-c000000004D12ACDF000000000003580D
-t1293069535
-s219149
-
-N/Users/john/Documents/OctoScrabble/Images/Start@2x.png
-c000000004D07D79800000000000A69A6
-t1292359576
-s682406
-
-N/Users/john/Documents/OctoScrabble/Images/Start_iPad.png
-c000000004D13F16700000000000CC552
-t1293152615
-s836946
-
-N/Users/john/Documents/OctoScrabble/Images/icon.png
-c000000004D12ABDC0000000000002722
-t1293069276
-s10018
-
-N/Users/john/Documents/OctoScrabble/Images/icon512.png
-c000000004D12AC4800000000000426B2
-t1293069384
-s272050
-
-N/Users/john/Documents/OctoScrabble/Images/icon@2x.png
-c000000004D12AB440000000000006BC8
-t1293069124
-s27592
-
-N/Users/john/Documents/OctoScrabble/MainMenu.xib
-c000000004D12B71C0000000000007202
-t1293072156
-s29186
-
-N/Users/john/Documents/OctoScrabble/MainMenu_iPad.xib
-c000000004D13F2440000000000003ACE
-t1293152836
-s15054
-
-N/Users/john/Documents/OctoScrabble/MainWindow.xib
-c000000004D071CDC0000000000004E65
-t1292311772
-s20069
-
-N/Users/john/Documents/OctoScrabble/OctoScrabble-Info.plist
-c000000004D14200C0000000000000472
-t1293164556
-s1138
-
-N/Users/john/Documents/OctoScrabble/OctoScrabbleViewController.xib
-c000000004D071CDC0000000000001A59
-t1292311772
-s6745
-
-N/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch
-c000000004D071CDC00000000000000C1
-t1292311772
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/john/Documents/OctoScrabble/Options.xib
-c000000004D13C99F0000000000008892
-t1293142431
-s34962
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLESGameState.o
-t1293165110
-s18908
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLFont.o
-t1293165109
-s18952
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLTexture.o
-t1293165110
-s27988
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameState.o
-t1293165110
-s10120
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameStateManager.o
-t1293165110
-s5272
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble
-t1293165114
-s102248
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble.LinkFileList
-c000000004D14215900000000000007B7
-t1293164889
-s1975
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleAppDelegate.o
-t1293165109
-s51324
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleViewController.o
-t1293165109
-s34480
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/ResourceManager.o
-t1293165110
-s30140
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/SoundEngine.o
-t1293165113
-s191616
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGame.o
-t1293165110
-s21840
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGameOpenGL.o
-t1293165111
-s21288
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsMainMenu.o
-t1293165110
-s30488
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsOptions.o
-t1293165111
-s36988
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsTest.o
-t1293165111
-s19516
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/main.o
-t1293165109
-s6436
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLESGameState.o
-t1293165114
-s18852
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLFont.o
-t1293165112
-s18424
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLTexture.o
-t1293165112
-s27044
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameState.o
-t1293165114
-s10128
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameStateManager.o
-t1293165114
-s5272
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble
-t1293165115
-s100988
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble.LinkFileList
-c000000004D14215900000000000007B7
-t1293164889
-s1975
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleAppDelegate.o
-t1293165111
-s51084
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleViewController.o
-t1293165112
-s34492
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/ResourceManager.o
-t1293165112
-s29132
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/SoundEngine.o
-t1293165114
-s189596
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGame.o
-t1293165114
-s21784
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGameOpenGL.o
-t1293165115
-s20872
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsMainMenu.o
-t1293165114
-s30508
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsOptions.o
-t1293165114
-s36984
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsTest.o
-t1293165114
-s19520
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/main.o
-t1293165111
-s6416
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent
-t1293165115
-s430
-
-N/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-t1293165115
-s1122
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app.dSYM
-t1293165115
-s102
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default.png
-t1293164892
-s275977
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default@2x.png
-t1293164898
-s806230
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default_iPad.png
-t1293164914
-s1001567
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/GameWindow.nib
-t1293165106
-s999
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Info.plist
-t1293165105
-s910
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainMenu.nib
-t1293165107
-s2465
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainMenu_iPad.nib
-t1293165107
-s919
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainWindow.nib
-t1293165106
-s1133
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble
-t1293165115
-s222032
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble-Info.plist
-t2
-s0
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble.html
-t1293164902
-s1231
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabbleViewController.nib
-t1293165106
-s795
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.nib
-t1293165107
-s3127
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.png
-t1293164893
-s220127
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options@2x.png
-t1293164900
-s633868
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options_iPad.png
-t1293164922
-s838362
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/PkgInfo
-t1293165105
-s8
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/ResourceRules.plist
-t1293165105
-s485
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start.png
-t1293164899
-s267391
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start@2x.png
-t1293164912
-s812357
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start_iPad.png
-t1293164924
-s1007088
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/embedded.mobileprovision
-t1293164932
-s7436
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon.png
-t1293164892
-s11507
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon512.png
-t1293164924
-s347243
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon@2x.png
-t1293164892
-s32821
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/images
-t1293164902
-s340
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/island.mp3
-t1293164890
-s359037
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/scripts
-t1293164902
-s306
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/styles
-t1293164902
-s102
-
-N/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/tap.caf
-t1293164890
-s107964
-
-N/Users/john/Documents/OctoScrabble/main.m
-c000000004D071CDC0000000000000170
-t1292311772
-s368
-i<UIKit/UIKit.h>
-
-N/Users/john/Library/MobileDevice/Provisioning Profiles/95F38875-5FDE-46A8-BA2B-D43C955DD22B.mobileprovision
-c000000004CF57FEC0000000000001D0C
-t1291157484
-s7436
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch.gch
-t1293165109
-s9228948
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bgzfjuovhjjyuiaccxozdtlzarjd/OctoScrabble_Prefix.pch.gch
-t1293164926
-s1966308
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bkgcjsamnkmfznflvaoyvqsjheyz/OctoScrabble_Prefix.pch.gch
-t1293164925
-s10094128
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bmasvujxzzqflxfxxjwszeojjnjs/OctoScrabble_Prefix.pch.gch
-t1293164925
-s1519844
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ccrhbtfdjgwptcdkxnbueijbivbj/OctoScrabble_Prefix.pch.gch
-t1293165109
-s1966308
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-efhywuaqrjnjloclcscdtasnhwif/OctoScrabble_Prefix.pch.gch
-t1293165107
-s1519844
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ejsfxoyyugapyvdztukkfbnykrsl/OctoScrabble_Prefix.pch.gch
-t1293164926
-s9639472
-
-N/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch.gch
-t1293165108
-s8770196
-
-NOctoScrabble-Info.plist
-c000000004D13F888000000000000046F
-t1293154440
-s1135
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies314857904#314857905#0(129"[BWARN]warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.1(22@121"warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.314857905#18446744073709551615#0#0(1@0"0(0#1#0"8655445952#0"0#
-
-CCodeSign /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-s314857915.249840
-e314857915.607086
-r1
-xCodeSign
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-lSLF07#2@48"CodeSign build/Release-iphoneos/OctoScrabble.app314857915#314857915#0(0"0(0#0#74"/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app8682363264#663"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Tomas Brides (W8P675ZEWN)" --resource-rules=/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/ResourceRules.plist --entitlements /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLESGameState.o /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857910.351295
-e314857910.571365
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLESGameState.o
-x/Users/john/Documents/OctoScrabble/Classes/GLESGameState.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m314857910#314857910#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/Classes/GLESGameState.m8679733824#1865"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLESGameState.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLFont.o /Users/john/Documents/OctoScrabble/Classes/GLFont.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857909.406928
-e314857909.719204
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLFont.o
-x/Users/john/Documents/OctoScrabble/Classes/GLFont.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/john/Documents/OctoScrabble/Classes/GLFont.m314857909#314857909#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Classes/GLFont.m8690050944#1851"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GLFont.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLFont.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLTexture.o /Users/john/Documents/OctoScrabble/Classes/GLTexture.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857909.437044
-e314857910.235601
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLTexture.o
-x/Users/john/Documents/OctoScrabble/Classes/GLTexture.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/john/Documents/OctoScrabble/Classes/GLTexture.m314857909#314857910#0(0"0(0#0#54"/Users/john/Documents/OctoScrabble/Classes/GLTexture.m8675850208#1857"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GLTexture.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GLTexture.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameState.o /Users/john/Documents/OctoScrabble/Classes/GameState.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857910.235704
-e314857910.298941
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameState.o
-x/Users/john/Documents/OctoScrabble/Classes/GameState.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/john/Documents/OctoScrabble/Classes/GameState.m314857910#314857910#0(0"0(0#0#54"/Users/john/Documents/OctoScrabble/Classes/GameState.m8708491040#1857"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GameState.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameState.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameStateManager.o /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857910.299022
-e314857910.351192
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameStateManager.o
-x/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: incomplete implementation of class 'GameStateManager'
-o/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: method definition for '-doStateChange:renderLoop:' not found
-lSLF07#2@69"Compile /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m314857910#314857910#0(265"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: incomplete implementation of class 'GameStateManager'/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: method definition for '-doStateChange:renderLoop:' not found2(22@53"Incomplete implementation of class 'GameStateManager'314857910#0#129#0(6@61"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m307395603#14#0#14#0#38"incomplete implementation of class '*'0(22@60"Method definition for '-doStateChange:renderLoop:' not found314857910#129#136#0(6@61"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m307395603#14#0#14#0#35"method definition for '*' not found0(0#0#61"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m8701319840#1871"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/GameStateManager.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleAppDelegate.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857909.187296
-e314857909.436939
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleAppDelegate.o
-x/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m314857909#314857909#0(0"0(0#0#68"/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m8697643328#1885"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleAppDelegate.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleViewController.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857909.296663
-e314857909.406843
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleViewController.o
-x/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m314857909#314857909#0(0"0(0#0#71"/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m8692011744#1891"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabbleViewController.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/ResourceManager.o /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857909.719291
-e314857910.024046
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/ResourceManager.o
-x/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m: In function '+[ResourceManager directoryMasher]':
-o/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m:284: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361)
-lSLF07#2@68"Compile /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m314857909#314857910#0(383"/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m: In function '+[ResourceManager directoryMasher]':/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m:284: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361)1(22@195"'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361)314857909#112#271#0(6@60"/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m314835520#284#0#284#0#33"'*' is deprecated (declared at *)0(0#0#60"/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m8705142432#1869"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/ResourceManager.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/SoundEngine.o /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
-s314857910.024142
-e314857913.993925
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/SoundEngine.o
-x/Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp
-xnormal
-xarmv6
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp314857910#314857913#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp8695749760#1874"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-efhywuaqrjnjloclcscdtasnhwif/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/SoundEngine.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGame.o /Users/john/Documents/OctoScrabble/Classes/gsGame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857910.571586
-e314857910.674712
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGame.o
-x/Users/john/Documents/OctoScrabble/Classes/gsGame.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/john/Documents/OctoScrabble/Classes/gsGame.m314857910#314857910#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Classes/gsGame.m8709881504#1851"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsGame.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGame.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGameOpenGL.o /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857911.479938
-e314857911.662027
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGameOpenGL.o
-x/Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m314857911#314857911#0(0"0(0#0#57"/Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m8690501952#1863"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsGameOpenGL.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsMainMenu.o /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857910.674817
-e314857910.827296
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsMainMenu.o
-x/Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m314857910#314857910#0(0"0(0#0#55"/Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m8702555168#1859"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsMainMenu.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsOptions.o /Users/john/Documents/OctoScrabble/Classes/gsOptions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857910.827375
-e314857911.302283
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsOptions.o
-x/Users/john/Documents/OctoScrabble/Classes/gsOptions.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/john/Documents/OctoScrabble/Classes/gsOptions.m: In function '-[gsOptions renderBtnClicked:]':
-o/Users/john/Documents/OctoScrabble/Classes/gsOptions.m:32: warning: unused variable 'rMethod'
-lSLF07#2@62"Compile /Users/john/Documents/OctoScrabble/Classes/gsOptions.m314857910#314857911#0(196"/Users/john/Documents/OctoScrabble/Classes/gsOptions.m: In function '-[gsOptions renderBtnClicked:]':/Users/john/Documents/OctoScrabble/Classes/gsOptions.m:32: warning: unused variable 'rMethod'1(22@25"Unused variable 'rMethod'314857910#102#94#0(6@54"/Users/john/Documents/OctoScrabble/Classes/gsOptions.m314853211#32#0#32#0#19"unused variable '*'0(0#0#54"/Users/john/Documents/OctoScrabble/Classes/gsOptions.m8690364768#1857"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsOptions.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsOptions.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsTest.o /Users/john/Documents/OctoScrabble/Classes/gsTest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857911.302381
-e314857911.479855
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsTest.o
-x/Users/john/Documents/OctoScrabble/Classes/gsTest.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/john/Documents/OctoScrabble/Classes/gsTest.m314857911#314857911#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Classes/gsTest.m8714189824#1851"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsTest.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/gsTest.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/main.o /Users/john/Documents/OctoScrabble/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857909.185944
-e314857909.296566
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/main.o
-x/Users/john/Documents/OctoScrabble/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/john/Documents/OctoScrabble/main.m314857909#314857909#0(0"0(0#0#41"/Users/john/Documents/OctoScrabble/main.m8701609440#1839"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/main.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLESGameState.o /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.216158
-e314857914.405665
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLESGameState.o
-x/Users/john/Documents/OctoScrabble/Classes/GLESGameState.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m314857914#314857914#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/Classes/GLESGameState.m8712117984#1865"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GLESGameState.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLESGameState.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLFont.o /Users/john/Documents/OctoScrabble/Classes/GLFont.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857912.061816
-e314857912.337230
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLFont.o
-x/Users/john/Documents/OctoScrabble/Classes/GLFont.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/john/Documents/OctoScrabble/Classes/GLFont.m314857912#314857912#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Classes/GLFont.m8639866720#1851"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GLFont.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLFont.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLTexture.o /Users/john/Documents/OctoScrabble/Classes/GLTexture.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857912.337608
-e314857912.553666
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLTexture.o
-x/Users/john/Documents/OctoScrabble/Classes/GLTexture.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/john/Documents/OctoScrabble/Classes/GLTexture.m314857912#314857912#0(0"0(0#0#54"/Users/john/Documents/OctoScrabble/Classes/GLTexture.m8702700352#1857"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GLTexture.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GLTexture.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameState.o /Users/john/Documents/OctoScrabble/Classes/GameState.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.044258
-e314857914.113775
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameState.o
-x/Users/john/Documents/OctoScrabble/Classes/GameState.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/john/Documents/OctoScrabble/Classes/GameState.m314857914#314857914#0(0"0(0#0#54"/Users/john/Documents/OctoScrabble/Classes/GameState.m8697239808#1857"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GameState.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameState.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameStateManager.o /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.113860
-e314857914.213821
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameStateManager.o
-x/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: incomplete implementation of class 'GameStateManager'
-o/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: method definition for '-doStateChange:renderLoop:' not found
-lSLF07#2@69"Compile /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m314857914#314857914#0(265"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: incomplete implementation of class 'GameStateManager'/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m:14: warning: method definition for '-doStateChange:renderLoop:' not found2(22@53"Incomplete implementation of class 'GameStateManager'314857914#0#129#0(6@61"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m307395603#14#0#14#0#38"incomplete implementation of class '*'0(22@60"Method definition for '-doStateChange:renderLoop:' not found314857914#129#136#0(6@61"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m307395603#14#0#14#0#35"method definition for '*' not found0(0#0#61"/Users/john/Documents/OctoScrabble/Classes/GameStateManager.m8692890112#1871"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/GameStateManager.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/GameStateManager.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleAppDelegate.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857911.722785
-e314857911.987865
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleAppDelegate.o
-x/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m314857911#314857911#0(0"0(0#0#68"/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m8690645920#1885"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleAppDelegate.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleAppDelegate.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleViewController.o /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857911.988050
-e314857912.061706
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleViewController.o
-x/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m314857911#314857912#0(0"0(0#0#71"/Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m8690100288#1891"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/OctoScrabbleViewController.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabbleViewController.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/ResourceManager.o /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857912.553755
-e314857912.843895
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/ResourceManager.o
-x/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m: In function '+[ResourceManager directoryMasher]':
-o/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m:284: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361)
-lSLF07#2@68"Compile /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m314857912#314857912#0(383"/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m: In function '+[ResourceManager directoryMasher]':/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m:284: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361)1(22@195"'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:361)314857912#112#271#0(6@60"/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m314835520#284#0#284#0#33"'*' is deprecated (declared at *)0(0#0#60"/Users/john/Documents/OctoScrabble/Classes/ResourceManager.m8690449088#1869"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/ResourceManager.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/ResourceManager.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/SoundEngine.o /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s314857912.843991
-e314857914.044171
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/SoundEngine.o
-x/Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp314857912#314857914#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp8702568128#1874"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ccrhbtfdjgwptcdkxnbueijbivbj/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/SoundEngine.cpp -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/SoundEngine.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGame.o /Users/john/Documents/OctoScrabble/Classes/gsGame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.218339
-e314857914.537965
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGame.o
-x/Users/john/Documents/OctoScrabble/Classes/gsGame.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/john/Documents/OctoScrabble/Classes/gsGame.m314857914#314857914#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Classes/gsGame.m8703123936#1851"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsGame.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGame.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGameOpenGL.o /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.776864
-e314857915.048783
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGameOpenGL.o
-x/Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m314857914#314857915#0(0"0(0#0#57"/Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m8640202592#1863"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsGameOpenGL.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsGameOpenGL.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsMainMenu.o /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.405758
-e314857914.776751
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsMainMenu.o
-x/Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m314857914#314857914#0(0"0(0#0#55"/Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m8692892672#1859"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsMainMenu.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsMainMenu.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsOptions.o /Users/john/Documents/OctoScrabble/Classes/gsOptions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.538065
-e314857914.741962
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsOptions.o
-x/Users/john/Documents/OctoScrabble/Classes/gsOptions.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/john/Documents/OctoScrabble/Classes/gsOptions.m: In function '-[gsOptions renderBtnClicked:]':
-o/Users/john/Documents/OctoScrabble/Classes/gsOptions.m:32: warning: unused variable 'rMethod'
-lSLF07#2@62"Compile /Users/john/Documents/OctoScrabble/Classes/gsOptions.m314857914#314857914#0(196"/Users/john/Documents/OctoScrabble/Classes/gsOptions.m: In function '-[gsOptions renderBtnClicked:]':/Users/john/Documents/OctoScrabble/Classes/gsOptions.m:32: warning: unused variable 'rMethod'1(22@25"Unused variable 'rMethod'314857914#102#94#0(6@54"/Users/john/Documents/OctoScrabble/Classes/gsOptions.m314853211#32#0#32#0#19"unused variable '*'0(0#0#54"/Users/john/Documents/OctoScrabble/Classes/gsOptions.m8711718624#1857"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsOptions.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsOptions.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsTest.o /Users/john/Documents/OctoScrabble/Classes/gsTest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857914.742053
-e314857914.970190
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsTest.o
-x/Users/john/Documents/OctoScrabble/Classes/gsTest.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/john/Documents/OctoScrabble/Classes/gsTest.m314857914#314857914#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Classes/gsTest.m8672522848#1851"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/Classes/gsTest.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/gsTest.o0#
-
-CCompileC build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/main.o /Users/john/Documents/OctoScrabble/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857911.662131
-e314857911.722677
-r1
-xCompileC
-xbuild/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/main.o
-x/Users/john/Documents/OctoScrabble/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/john/Documents/OctoScrabble/main.m314857911#314857911#0(0"0(0#0#41"/Users/john/Documents/OctoScrabble/main.m8697710720#1839"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch -c /Users/john/Documents/OctoScrabble/main.m -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/john/Development/OctoScrabble/GameWindow.xib
-r0
-
-CCompileXIB /Users/john/Development/OctoScrabble/MainMenu.xib
-r0
-
-CCompileXIB /Users/john/Development/OctoScrabble/MainMenu_iPad.xib
-r0
-
-CCompileXIB /Users/john/Development/OctoScrabble/MainWindow.xib
-r0
-
-CCompileXIB /Users/john/Development/OctoScrabble/OctoScrabbleViewController.xib
-r0
-
-CCompileXIB /Users/john/Development/OctoScrabble/Options.xib
-r0
-
-CCompileXIB /Users/john/Documents/OctoScrabble/GameWindow.xib
-s314857906.267252
-e314857906.998362
-r1
-xCompileXIB
-x/Users/john/Documents/OctoScrabble/GameWindow.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/john/Documents/OctoScrabble/GameWindow.xib:5: warning: The Event data detector type is not supported on iOS versions prior to 4.0.
-lSLF07#2@25"CompileXIB GameWindow.xib314857906#314857906#0(179"/* com.apple.ibtool.document.warnings *//Users/john/Documents/OctoScrabble/GameWindow.xib:5: warning: The Event data detector type is not supported on iOS versions prior to 4.0.1(22@75"The Event data detector type is not supported on iOS versions prior to 4.0.314857906#18446744073709551615#0#0(6@49"/Users/john/Documents/OctoScrabble/GameWindow.xib311481943#5#0#5#0#0"0(0#0#49"/Users/john/Documents/OctoScrabble/GameWindow.xib8711729664#537"    cd /Users/john/Documents/OctoScrabble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/GameWindow.nib /Users/john/Documents/OctoScrabble/GameWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCompileXIB /Users/john/Documents/OctoScrabble/MainMenu.xib
-s314857906.417545
-e314857907.333030
-r1
-xCompileXIB
-x/Users/john/Documents/OctoScrabble/MainMenu.xib
-lSLF07#2@23"CompileXIB MainMenu.xib314857906#314857907#0(0"0(0#0#47"/Users/john/Documents/OctoScrabble/MainMenu.xib8706369440#533"    cd /Users/john/Documents/OctoScrabble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainMenu.nib /Users/john/Documents/OctoScrabble/MainMenu.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCompileXIB /Users/john/Documents/OctoScrabble/MainMenu_iPad.xib
-s314857907.333335
-e314857907.844532
-r1
-xCompileXIB
-x/Users/john/Documents/OctoScrabble/MainMenu_iPad.xib
-lSLF07#2@28"CompileXIB MainMenu_iPad.xib314857907#314857907#0(0"0(0#0#52"/Users/john/Documents/OctoScrabble/MainMenu_iPad.xib8701889632#543"    cd /Users/john/Documents/OctoScrabble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainMenu_iPad.nib /Users/john/Documents/OctoScrabble/MainMenu_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCompileXIB /Users/john/Documents/OctoScrabble/MainWindow.xib
-s314857905.432309
-e314857906.417457
-r1
-xCompileXIB
-x/Users/john/Documents/OctoScrabble/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib314857905#314857906#0(0"0(0#0#49"/Users/john/Documents/OctoScrabble/MainWindow.xib8627245152#537"    cd /Users/john/Documents/OctoScrabble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/MainWindow.nib /Users/john/Documents/OctoScrabble/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCompileXIB /Users/john/Documents/OctoScrabble/OctoScrabbleViewController.xib
-s314857905.433614
-e314857906.266685
-r1
-xCompileXIB
-x/Users/john/Documents/OctoScrabble/OctoScrabbleViewController.xib
-lSLF07#2@41"CompileXIB OctoScrabbleViewController.xib314857905#314857906#0(0"0(0#0#65"/Users/john/Documents/OctoScrabble/OctoScrabbleViewController.xib8625461216#569"    cd /Users/john/Documents/OctoScrabble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabbleViewController.nib /Users/john/Documents/OctoScrabble/OctoScrabbleViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCompileXIB /Users/john/Documents/OctoScrabble/Options.xib
-s314857906.998518
-e314857907.754907
-r1
-xCompileXIB
-x/Users/john/Documents/OctoScrabble/Options.xib
-lSLF07#2@22"CompileXIB Options.xib314857906#314857907#0(0"0(0#0#46"/Users/john/Documents/OctoScrabble/Options.xib8703130432#531"    cd /Users/john/Documents/OctoScrabble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.nib /Users/john/Documents/OctoScrabble/Options.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default.png Images/Default.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default@2x.png Images/Default@2x.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default_iPad.png Images/Default_iPad.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.png Images/Options.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options@2x.png Images/Options@2x.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options_iPad.png Images/Options_iPad.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start.png Images/Start.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start@2x.png Images/Start@2x.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start_iPad.png Images/Start_iPad.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon.png Images/icon.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon512.png Images/icon512.png
-r0
-
-CCopyPNGFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon@2x.png Images/icon@2x.png
-r0
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default.png Images/Default.png
-s314857690.452179
-e314857692.509771
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default.png
-xImages/Default.png
-lSLF07#2@82"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Default.png Images/Default.png314857690#314857692#0(0"0(0#0#53"/Users/john/Documents/OctoScrabble/Images/Default.png8715283936#564"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Default.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default@2x.png Images/Default@2x.png
-s314857690.519556
-e314857698.133805
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default@2x.png
-xImages/Default@2x.png
-lSLF07#2@88"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Default@2x.png Images/Default@2x.png314857690#314857698#0(0"0(0#0#56"/Users/john/Documents/OctoScrabble/Images/Default@2x.png8715069728#570"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Default@2x.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default@2x.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default_iPad.png Images/Default_iPad.png
-s314857705.381595
-e314857714.313348
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default_iPad.png
-xImages/Default_iPad.png
-lSLF07#2@92"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Default_iPad.png Images/Default_iPad.png314857705#314857714#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/Images/Default_iPad.png8714312672#574"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Default_iPad.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Default_iPad.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.png Images/Options.png
-s314857692.590150
-e314857693.783639
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.png
-xImages/Options.png
-lSLF07#2@82"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Options.png Images/Options.png314857692#314857693#0(0"0(0#0#53"/Users/john/Documents/OctoScrabble/Images/Options.png8687727840#564"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Options.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options@2x.png Images/Options@2x.png
-s314857693.783790
-e314857700.327161
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options@2x.png
-xImages/Options@2x.png
-lSLF07#2@88"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Options@2x.png Images/Options@2x.png314857693#314857700#0(0"0(0#0#56"/Users/john/Documents/OctoScrabble/Images/Options@2x.png8716490048#570"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Options@2x.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options@2x.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options_iPad.png Images/Options_iPad.png
-s314857713.371713
-e314857722.943520
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options_iPad.png
-xImages/Options_iPad.png
-lSLF07#2@92"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Options_iPad.png Images/Options_iPad.png314857713#314857722#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/Images/Options_iPad.png8715261440#574"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Options_iPad.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Options_iPad.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start.png Images/Start.png
-s314857698.137327
-e314857699.612775
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start.png
-xImages/Start.png
-lSLF07#2@78"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Start.png Images/Start.png314857698#314857699#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Images/Start.png8685052064#560"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Start.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start@2x.png Images/Start@2x.png
-s314857705.377786
-e314857712.786454
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start@2x.png
-xImages/Start@2x.png
-lSLF07#2@84"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Start@2x.png Images/Start@2x.png314857705#314857712#0(0"0(0#0#54"/Users/john/Documents/OctoScrabble/Images/Start@2x.png8685760832#566"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Start@2x.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start@2x.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start_iPad.png Images/Start_iPad.png
-s314857714.313557
-e314857724.422809
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start_iPad.png
-xImages/Start_iPad.png
-lSLF07#2@88"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/Start_iPad.png Images/Start_iPad.png314857714#314857724#0(0"0(0#0#56"/Users/john/Documents/OctoScrabble/Images/Start_iPad.png8713152160#570"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/Start_iPad.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Start_iPad.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon.png Images/icon.png
-s314857692.509890
-e314857692.538722
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon.png
-xImages/icon.png
-lSLF07#2@76"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/icon.png Images/icon.png314857692#314857692#0(0"0(0#0#50"/Users/john/Documents/OctoScrabble/Images/icon.png8687927584#558"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/icon.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon512.png Images/icon512.png
-s314857722.943660
-e314857724.935843
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon512.png
-xImages/icon512.png
-lSLF07#2@82"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/icon512.png Images/icon512.png314857722#314857724#0(0"0(0#0#53"/Users/john/Documents/OctoScrabble/Images/icon512.png8687659872#564"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/icon512.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon512.png0#
-
-CCopyPNGFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon@2x.png Images/icon@2x.png
-s314857692.538794
-e314857692.590073
-r1
-xCopyPNGFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon@2x.png
-xImages/icon@2x.png
-lSLF07#2@82"CopyPNGFile build/Release-iphoneos/OctoScrabble.app/icon@2x.png Images/icon@2x.png314857692#314857692#0(0"0(0#0#53"/Users/john/Documents/OctoScrabble/Images/icon@2x.png8641448192#564"    cd /Users/john/Documents/OctoScrabble    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/john/Documents/OctoScrabble/Images/icon@2x.png /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/icon@2x.png0#
-
-CCopyPlistFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble-Info.plist OctoScrabble-Info.plist
-r0
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/OctoScrabble.html GameData.Web/OctoScrabble.html
-s314857702.320677
-e314857702.337988
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/OctoScrabble.html
-xGameData.Web/OctoScrabble.html
-lSLF07#2@35"Copy GameData.Web/OctoScrabble.html314857702#314857702#0(0"0(0#0#65"/Users/john/Documents/OctoScrabble/GameData.Web/OctoScrabble.html8690247808#476"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/OctoScrabble/GameData.Web/OctoScrabble.html /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-s314857905.390571
-e314857905.409927
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist314857905#314857905#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8637269472#500"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-s314857689.819763
-e314857689.850025
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist314857689#314857689#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8711622656#500"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/images GameData.Web/images
-s314857702.319897
-e314857702.361480
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/images
-xGameData.Web/images
-lSLF07#2@24"Copy GameData.Web/images314857702#314857702#0(0"0(0#0#54"/Users/john/Documents/OctoScrabble/GameData.Web/images8693103936#465"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/OctoScrabble/GameData.Web/images /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/island.mp3 Audio/island.mp3
-s314857690.443512
-e314857690.493484
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/island.mp3
-xAudio/island.mp3
-lSLF07#2@21"Copy Audio/island.mp3314857690#314857690#0(0"0(0#0#51"/Users/john/Documents/OctoScrabble/Audio/island.mp38715885472#462"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/OctoScrabble/Audio/island.mp3 /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/scripts GameData.Web/scripts
-s314857702.325704
-e314857702.368672
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/scripts
-xGameData.Web/scripts
-lSLF07#2@25"Copy GameData.Web/scripts314857702#314857702#0(0"0(0#0#55"/Users/john/Documents/OctoScrabble/GameData.Web/scripts8678331136#466"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/OctoScrabble/GameData.Web/scripts /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/styles GameData.Web/styles
-s314857702.329243
-e314857702.361713
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/styles
-xGameData.Web/styles
-lSLF07#2@24"Copy GameData.Web/styles314857702#314857702#0(0"0(0#0#54"/Users/john/Documents/OctoScrabble/GameData.Web/styles8670347296#465"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/OctoScrabble/GameData.Web/styles /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCpResource build/Release-iphoneos/OctoScrabble.app/tap.caf Audio/tap.caf
-s314857690.447830
-e314857690.481211
-r1
-xCpResource
-xbuild/Release-iphoneos/OctoScrabble.app/tap.caf
-xAudio/tap.caf
-lSLF07#2@18"Copy Audio/tap.caf314857690#314857690#0(0"0(0#0#48"/Users/john/Documents/OctoScrabble/Audio/tap.caf8715700000#459"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/john/Documents/OctoScrabble/Audio/tap.caf /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CCreateUniversalBinary /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble normal "armv6 armv7"
-s314857915.092425
-e314857915.097052
-r1
-xCreateUniversalBinary
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble
-xnormal
-xarmv6 armv7
-lSLF07#2@95"CreateUniversalBinary build/Release-iphoneos/OctoScrabble.app/OctoScrabble normal "armv6 armv7"314857915#314857915#0(0"0(0#0#46"/Users/john/Documents/OctoScrabble/armv6 armv78706733408#548"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble -output /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble0#
-
-CGenerateDSYMFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app.dSYM /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble
-s314857915.097141
-e314857915.212225
-r1
-xGenerateDSYMFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app.dSYM
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble
-lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/OctoScrabble.app.dSYM build/Release-iphoneos/OctoScrabble.app/OctoScrabble314857915#314857915#0(0"0(0#0#87"/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble8693827072#369"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/OctoScrabble -o /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app.dSYM0#
-
-CLd /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble normal armv6
-s314857913.994134
-e314857914.218264
-r1
-xLd
-x/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble
-xnormal
-xarmv6
-lSLF07#2@134"Link /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble314857913#314857914#0(0"0(0#0#0"8704175968#961"    cd /Users/john/Documents/OctoScrabble    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/john/Documents/OctoScrabble/build/Release-iphoneos -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -filelist /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenAL -framework OpenGLES -framework QuartzCore -framework AudioToolbox -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv6/OctoScrabble0#
-
-CLd /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble normal armv7
-s314857915.048882
-e314857915.092342
-r1
-xLd
-x/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble
-xnormal
-xarmv7
-lSLF07#2@134"Link /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble314857915#314857915#0(0"0(0#0#0"8716612000#961"    cd /Users/john/Documents/OctoScrabble    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/john/Documents/OctoScrabble/build/Release-iphoneos -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -filelist /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenAL -framework OpenGLES -framework QuartzCore -framework AudioToolbox -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/Objects-normal/armv7/OctoScrabble0#
-
-CProcessInfoPlistFile /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Info.plist OctoScrabble-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Info.plist OctoScrabble-Info.plist
-s314857905.394331
-e314857905.432231
-r1
-xProcessInfoPlistFile
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Info.plist
-xOctoScrabble-Info.plist
-lSLF07#2@31"Process OctoScrabble-Info.plist314857905#314857905#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble-Info.plist8634662144#572"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OctoScrabble-Info.plist -genpkginfo /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/ResourceRules.plist -o /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/Info.plist0#
-
-CProcessPCH /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857907.928208
-e314857909.140839
-r1
-xProcessPCH
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857907#314857909#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8690075136#1734"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-aencnafguixuufdsmpyuhscyrfau/OctoScrabble_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bkgcjsamnkmfznflvaoyvqsjheyz/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314857725.025881
-e314857725.934639
-r1
-xProcessPCH
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bkgcjsamnkmfznflvaoyvqsjheyz/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857725#314857725#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8665978208#1734"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bkgcjsamnkmfznflvaoyvqsjheyz/OctoScrabble_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ejsfxoyyugapyvdztukkfbnykrsl/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857724.936008
-e314857726.047933
-r1
-xProcessPCH
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ejsfxoyyugapyvdztukkfbnykrsl/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857724#314857726#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8712535392#1734"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ejsfxoyyugapyvdztukkfbnykrsl/OctoScrabble_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314857907.844648
-e314857909.050449
-r1
-xProcessPCH
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857907#314857909#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8696776800#1734"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-hkqycfrphgmjmqbgwniptktmlsbi/OctoScrabble_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bgzfjuovhjjyuiaccxozdtlzarjd/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
-s314857725.934744
-e314857726.077583
-r1
-xProcessPCH++
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bgzfjuovhjjyuiaccxozdtlzarjd/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857725#314857726#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8713952672#1745"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bgzfjuovhjjyuiaccxozdtlzarjd/OctoScrabble_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bmasvujxzzqflxfxxjwszeojjnjs/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
-s314857724.936997
-e314857725.025763
-r1
-xProcessPCH++
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bmasvujxzzqflxfxxjwszeojjnjs/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv6
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857724#314857725#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8712116192#1745"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-bmasvujxzzqflxfxxjwszeojjnjs/OctoScrabble_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ccrhbtfdjgwptcdkxnbueijbivbj/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
-s314857909.050666
-e314857909.185846
-r1
-xProcessPCH++
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ccrhbtfdjgwptcdkxnbueijbivbj/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857909#314857909#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8713568256#1745"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv7 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-ccrhbtfdjgwptcdkxnbueijbivbj/OctoScrabble_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-efhywuaqrjnjloclcscdtasnhwif/OctoScrabble_Prefix.pch.gch OctoScrabble_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
-s314857907.845546
-e314857907.928096
-r1
-xProcessPCH++
-x/var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-efhywuaqrjnjloclcscdtasnhwif/OctoScrabble_Prefix.pch.gch
-xOctoScrabble_Prefix.pch
-xnormal
-xarmv6
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile OctoScrabble_Prefix.pch314857907#314857907#0(0"0(0#0#58"/Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch8694438528#1745"    cd /Users/john/Documents/OctoScrabble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-generated-files.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-own-target-headers.hmap -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-all-target-headers.hmap -iquote /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble-project-headers.hmap -F/Users/john/Documents/OctoScrabble/build/Release-iphoneos -I/Users/john/Documents/OctoScrabble/build/Release-iphoneos/include -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources/armv6 -I/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/john/Documents/OctoScrabble/OctoScrabble_Prefix.pch -o /var/folders/NN/NNgGlnESHWKhc5oqg6lR4++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OctoScrabble_Prefix-efhywuaqrjnjloclcscdtasnhwif/OctoScrabble_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/95F38875-5FDE-46A8-BA2B-D43C955DD22B.mobileprovision" /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/embedded.mobileprovision
-s314857732.085205
-e314857732.115838
-r1
-xProcessProductPackaging
-x/Users/john/Library/MobileDevice/Provisioning Profiles/95F38875-5FDE-46A8-BA2B-D43C955DD22B.mobileprovision
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/embedded.mobileprovision
-lSLF07#2@198"ProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/95F38875-5FDE-46A8-BA2B-D43C955DD22B.mobileprovision" build/Release-iphoneos/OctoScrabble.app/embedded.mobileprovision314857732#314857732#0(0"0(0#0#99"/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/embedded.mobileprovision8667287264#421"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/john/Library/MobileDevice/Provisioning Profiles/95F38875-5FDE-46A8-BA2B-D43C955DD22B.mobileprovision" -o /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent
-s314857915.216786
-e314857915.249782
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-x/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent
-lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent314857915#314857915#0(0"0(0#0#114"/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent8665568512#441"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent
-s314857732.118919
-e314857732.134499
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent
-lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent314857732#314857732#0(0"0(0#0#114"/Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent8710267040#441"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/john/Documents/OctoScrabble/build/OctoScrabble.build/Release-iphoneos/OctoScrabble.build/OctoScrabble.xcent0#
-
-CTouch /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-r0
-
-CTouch /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-s314857915.212379
-e314857915.216699
-r1
-xTouch
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-lSLF07#2@80"Touch /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app314857915#314857915#0(0"0(0#0#0"8701322240#263"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-
-CValidate /Users/john/Development/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-r0
-
-CValidate /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-s314857915.607254
-e314857915.742268
-r1
-xValidate
-x/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app
-lSLF07#2@48"Validate build/Release-iphoneos/OctoScrabble.app314857915#314857915#0(0"0(0#0#74"/Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app8697720960#372"    cd /Users/john/Documents/OctoScrabble    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/john/Documents/OctoScrabble/build/Release-iphoneos/OctoScrabble.app0#
-

@@ -1,4 +1,0 @@
-/Users/john/Development/OctoScrabble/Classes/OctoScrabbleAppDelegate.m: In function '-[OctoScrabbleAppDelegate applicationDidFinishLaunching:]':
-/Users/john/Development/OctoScrabble/Classes/OctoScrabbleAppDelegate.m:28: error: 'gsGane' undeclared (first use in this function)
-/Users/john/Development/OctoScrabble/Classes/OctoScrabbleAppDelegate.m:28: error: (Each undeclared identifier is reported only once
-/Users/john/Development/OctoScrabble/Classes/OctoScrabbleAppDelegate.m:28: error: for each function it appears in.)
