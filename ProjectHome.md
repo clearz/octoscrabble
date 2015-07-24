@@ -1,0 +1,1 @@
+An eight sided version of scrabble for ios devices such as the iPhone and iPad. The game is a hybrid of both native and web based components.
